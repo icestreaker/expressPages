@@ -1,0 +1,24 @@
+{
+  "name": "expresspages",
+  "version": "1.0.0",
+  "description": "landing and about us pages written with react.js and bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git/html",
+    "url": "https://github.com/icestreaker/expressPages.git"
+  },
+  "author": "James Warren Basham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icestreaker/expressPages/issues"
+  },
+  "homepage": "https://github.com/icestreaker/expressPages#readme",
+  "dependencies": {
+    "bootstrap": "file:bootstrap",
+    "express": "^4.15.2",
+    "react": "^15.4.2"
+  }
+}
