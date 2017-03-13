@@ -17,8 +17,28 @@
   },
   "homepage": "https://github.com/icestreaker/expressPages#readme",
   "dependencies": {
-    "bootstrap": "file:bootstrap",
+    "babel": "^6.23.0",
+    "bootstrap": "^4.0.0-alpha.6",
     "express": "^4.15.2",
-    "react": "^15.4.2"
+    "lodash": "^4.17.4",
+    "mangodb": "^1.0.0",
+    "mongodb": "^2.2.24",
+    "mongoose": "^4.8.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "chai": "^3.5.0",
+    "css-loader": "^0.27.3",
+    "jquery": "^3.1.1",
+    "jsdom": "^9.12.0",
+    "mocha": "^3.2.0",
+    "react-loader": "^2.4.0",
+    "scss-loader": "0.0.1",
+    "webpack": "^2.2.1"
   }
 }
