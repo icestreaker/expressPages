@@ -3,8 +3,7 @@ const bodyPaser = require('body-parser');
 const {ObjectID} = require('mongodb');
 
 var {mongoose} = require('./db/mongoose');
-var {userEmail} = require('./mongoose/users');
-var {userPassword} = require('./mongoose/users');
+var {userEmail, userPassword} = require('./mongoose/users');
 
 var app = express();
 const port = process.env.PORT || 3000;
@@ -13,11 +12,15 @@ app.use(bodyParser.json());
 
 app.newuser('/', (req, res) => {
   var userEmail = new userEmail;
-  var userPassword = new userPassword;
-  var checkPassword1 = getElementById('new_password');
-  var checkPassword2 = (checkPassword1 === userPassword);
-  if checkPassword2 = (false) {
-    alert('You have enterered an invalid password');
+  userEmail = index.userEmail;
+  var checkPassword1 = getElementById('password1');
+  userPassword = index.userPassword;
+  var checkPassword2 = new password;
+  if (checkPassword1 === checkPassword2) {
+// email verification will come later
+    alert('Congratulations you have created a new account');
+  } else {
+    alert('Sorry there is a problem with creating your account, please try again with another email address, plus be sure to closely verify your password');
   }
 }
 
@@ -31,4 +34,4 @@ ReactDOM.render(
   </Provider>
   , document.querySelector('.container'));
 
-  mobile.exports = {app};
+  mobile.exports = {App};
