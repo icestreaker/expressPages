@@ -1,0 +1,52 @@
+body {
+  background: black;
+  color: white;
+  height: auto;
+}
+
+//This applies for devices with resolutions larger than 1024x768,
+//IE: laptops and desktop monitors, possibly mobile tablets.
+@media (min-width: 768px) {
+  body {
+    background: black;
+    color: white;
+    height: auto;
+  }
+}
+
+.Banner {
+  text-align: center;
+  color: green;
+}
+
+.info {
+  text-align: center;
+  color: orange;
+}
+
+.prob-align {
+  text-align: center;
+}
+
+.align {
+  text-align: justify;
+}
+
+.form-align {
+  text-align: left;
+}
+
+.addUser {
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+}
+
+.PS {
+  border-right-style: solid;
+  border-left-style: solid;
+  border-right-color: white;
+  border-left-color: white;
+  border-right-width: thin;
+  border-left-width: thin;
+}

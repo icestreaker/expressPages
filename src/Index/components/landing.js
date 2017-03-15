@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDom from 'react-dom';
 import Bootstrap from 'bootstrap';
 
-var local='./views'
+
 
 var newUser = React.createClass({
   render: function(./functions/addPerson.js.jsx)

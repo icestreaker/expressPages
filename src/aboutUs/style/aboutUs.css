@@ -1,18 +1,27 @@
-// This applies from 0px to 600px
+//Applies to any device, meant to handle mobile devices
 body {
   background: black;
   color: white;
+  height: auto;
 }
 
-// This applies from 600px onwards
-@media (min-width: 600px) {
+//This applies for devices with resolution larger than mobile devices including
+//tablets, laptops, or desktop monitors
+@media (min-width: 768px) {
   body {
     background: black;
     color: white;
+    height: auto;
   }
 }
 
 .Now {
   text-align: center;
   color: red;
+}
+
+footer {
+  background: black;
+  text-align: center;
+  color: inherit;
 }
